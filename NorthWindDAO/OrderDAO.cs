@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 using NorthWindDTO;
 // NorthWindDAO -> 참조추가 -> System.Configuration
 
+/// 
 namespace NorthWindDAO
 {
     public class OrderDAO : IDisposable // public 이어야 어셈블리가 달라도 참조가 가능하다. 
